@@ -92,7 +92,7 @@ export default function Home() {
               </a>
             </div>
             <span class=" bg-gradient-to-b from-teal-500 to-blue-400 bg-clip-text  py-2 text-5xl font-bold text-transparent md:text-6xl">
-              Hello!
+              Hello and welcome!
             </span>
             <h3 className="py-2 text-2xl dark:text-white md:text-3xl">
               Developer and designer.
