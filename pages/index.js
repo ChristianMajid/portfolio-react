@@ -36,7 +36,7 @@ export default function Home() {
                   alt="McMaster CS Panda Bear"
                 />
               </div>
-              <h1 className="text-l mx-3 font-burtons md:mx-4 md:text-3xl lg:mx-6 lg:text-5xl">
+              <h1 className="text-l mx-1 font-burtons md:mx-2 md:text-3xl lg:mx-3 lg:text-5xl">
                 Christian Majid
               </h1>
             </ul>
@@ -45,12 +45,12 @@ export default function Home() {
                 <li>
                   <BsFillMoonStarsFill
                     onClick={() => setDarkMode(!darkMode)}
-                    className=" cursor-pointer text-4xl"
+                    className=" cursor-pointer text-lg lg:text-4xl"
                   />
                 </li>
                 <li>
                   <a
-                    className="text- ml-8 rounded-md border-none  bg-gradient-to-b from-teal-500 to-blue-400 px-8 py-4 text-2xl text-white"
+                    className=" ml-4 rounded-md border-none bg-gradient-to-b from-teal-500 to-blue-400 px-4 py-2 text-lg text-white lg:ml-8 lg:px-8 lg:py-4 lg:text-2xl"
                     href="resume.pdf"
                     target="_blank"
                   >
@@ -61,7 +61,7 @@ export default function Home() {
             </div>
           </nav>
           <div className="p-10 py-0 text-center lg:py-10">
-            <div className="flex justify-center gap-5 py-3 text-2xl text-gray-700 dark:text-gray-500 md:text-5xl lg:text-7xl ">
+            <div className="flex justify-center gap-5 py-3 text-4xl text-gray-700 dark:text-gray-500 md:text-5xl lg:text-7xl ">
               <a
                 href="https://twitter.com/Christian_Majid"
                 target="_blank"
@@ -104,7 +104,12 @@ export default function Home() {
             </p>
 
             <div className="relative mx-auto mt-20 h-80 w-80 overflow-hidden rounded-full bg-gradient-to-b from-teal-500 object-center md:h-96 md:w-96">
-              <Image src={face} layout="fill" objectFit="cover" />
+              <Image
+                src={face}
+                layout="fill"
+                objectFit="cover"
+                alt="Christian Majid face shot"
+              />
             </div>
           </div>
         </section>
