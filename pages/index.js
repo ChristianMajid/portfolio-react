@@ -60,8 +60,8 @@ export default function Home() {
               </ul>
             </div>
           </nav>
-          <div className="p-10 py-10 text-center">
-            <div className="flex justify-center gap-16 py-3 text-7xl text-gray-700 dark:text-gray-500 ">
+          <div className="p-10 py-0 text-center lg:py-10">
+            <div className="flex justify-center gap-5 py-3 text-2xl text-gray-700 dark:text-gray-500 md:text-5xl lg:text-7xl ">
               <a
                 href="https://twitter.com/Christian_Majid"
                 target="_blank"
@@ -130,7 +130,8 @@ export default function Home() {
             <div className="my-10 flex-1 rounded-xl p-10 text-center  shadow-lg dark:bg-teal-900">
               <Image src={design} width={100} height={100} />
               <h3 className="pb-2 pt-8 text-lg font-bold font-medium dark:text-white">
-                Beautiful Designs
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Repudiandae, distinctio.
               </h3>
               <p className="py-2 dark:text-gray-100">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
@@ -145,7 +146,7 @@ export default function Home() {
             <div className="my-10 flex-1 rounded-xl p-10 text-center shadow-xl dark:bg-teal-900">
               <Image src={code} width={100} height={100} />
               <h3 className="pb-2 pt-8 text-lg font-bold font-medium dark:text-white ">
-                Code your dream project
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               </h3>
               <p className="py-2 dark:text-gray-100  ">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -160,7 +161,8 @@ export default function Home() {
             <div className="my-10 flex-1 rounded-xl p-10 text-center shadow-lg dark:bg-teal-900">
               <Image src={consulting} width={100} height={100} />
               <h3 className="pb-2 pt-8 text-lg font-bold  font-medium  dark:text-white">
-                Consulting
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus, ipsa.
               </h3>
               <p className="py-2 dark:text-gray-100">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
