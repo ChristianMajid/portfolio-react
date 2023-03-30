@@ -103,7 +103,7 @@ export default function Home() {
               aliquid doloribus?
             </p>
 
-            <div className="relative mx-auto mt-20 h-80 w-80 overflow-hidden rounded-full bg-gradient-to-b from-teal-500 object-center md:h-96 md:w-96">
+            <div className=" relative  mx-auto mt-10 h-64 w-64 overflow-hidden rounded-full bg-gradient-to-b from-teal-500 object-center md:mt-20 md:h-96 md:w-96">
               <Image
                 src={face}
                 layout="fill"
